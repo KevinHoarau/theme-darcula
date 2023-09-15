@@ -12,13 +12,13 @@ import { IThemeManager } from "@jupyterlab/apputils";
  * A plugin for @telamonian/theme-darcula
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: "@telamonian/theme-darcula:plugin",
+  id: "@KevinHoarau/theme-darcula:plugin",
   requires: [IThemeManager],
   activate: function(app: JupyterFrontEnd, manager: IThemeManager) {
-    const style = "@telamonian/theme-darcula/index.css";
+    const style = "@KevinHoarau/theme-darcula/index.css";
 
     manager.register({
-      name: "Darcula",
+      name: "Darcula (khoarau)",
       isLight: false,
       themeScrollbars: true,
       load: () => manager.loadCSS(style),

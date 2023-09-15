@@ -33,7 +33,7 @@ package_data_spec = {
     ]
 }
 
-labext_name = "@telamonian/theme-darcula"
+labext_name = "@KevinHoarau/theme-darcula"
 
 data_files_spec = [
     ("share/jupyter/labextensions/%s" % labext_name, lab_path, "**"),
@@ -57,7 +57,7 @@ with open("README.md", "r") as fh:
 setup_args = dict(
     name=name,
     version=version,
-    url="https://github.com/telamonian/theme-darcula",
+    url="https://github.com/KevinHoarau/theme-darcula",
     author="Max Klein",
     description="Darcula theme for JupyterLab. Modelled after the classic Intellij theme.",
     long_description=long_description,

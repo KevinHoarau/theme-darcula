@@ -1,4 +1,21 @@
-# @telamonian/theme-darcula
+# Prerequisites
+
+```bash
+conda install -c conda-forge nodejs==14.20.1
+```
+
+# Installation
+
+```bash
+jupyter labextension install .
+jlpm build
+jupyter lab build
+```
+
+# Based on : @telamonian/theme-darcula
+
+
+<!--
 
 [![Build Status](https://travis-ci.org/telamonian/theme-darcula.svg?branch=master)](https://travis-ci.org/telamonian/theme-darcula)
 [![npm](https://img.shields.io/pypi/v/theme-darcula.svg)](https://pypi.org/project/theme-darcula/)
@@ -61,3 +78,4 @@ jupyter lab build
 This was the first JupyterLab theme that included dark scrollbars. As of JupyterLab 1.0, the dark scrollbars feature from this theme was incorporated into JupyterLab core, as part of [@jupyterlab/application/style/scrollbar.css](https://github.com/jupyterlab/jupyterlab/blob/6d5240dda71fb3d12814e8b88b09e94e23d42875/packages/application/style/scrollbar.css).
 
 JupyterLab itself now supports dark scrollbars for dark themes in Chrome, Firefox, and Safari. See [here](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar) and [here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars) for more info on how this is done.
+-->
